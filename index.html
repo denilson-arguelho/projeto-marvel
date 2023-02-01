@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MarvelLove</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="src/img/favicon_io/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/style.css">
+  <link rel="stylesheet" href="src/css/responsivo.css">
+</head>
+
+<body>
+  <div class="fundo-video">
+    <video class="video" autoplay loop muted>
+      <source src="src/video/marvel.mp4">
+    </video>
+  </div>
+  <header class="header">
+    <img src="src/img/logo.png" alt="logo/escudo" class="logo">
+    <nav class="navegacao">
+
+      <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Detalhes</a></li>
+        <li><a href="#">Galeria</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="container">
+    <div class="informacoes">
+      <img src="src/img/img-titulo.png" alt="imagem de titulo" class="img-titulo">
+      <p class="descricao">Capitão América é um super-herói de histórias em quadrinhos americanos publicado pela Marvel Comics. Criado por Joe Simon e Jack Kirby, o primeiro personagem apareceu em Captain America Comics (março de 1941) da Timely Comics, antecessora da Marvel Comics. Capitão América foi concebido como um super-herói patriótico que lutou contra as potências do Eixo na Segunda Guerra Mundial e foi personagem mais popular da Timely Comics durante o período da guerra.
+
+
+      </p>
+      <button class="btn-trailer" type="button">Veja o Trailer</button>
+    </div>
+    <img src="src/img/cap-america.png" alt="cap-america criança" class="img-capAmerica">
+
+
+    <div class="modal ">
+      <div class="conteudo-modal">
+        <span class="fechar-modal">X</span>
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/RpM1Bpx6nC8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </div>
+
+  </main>
+  <script src="src/js/index.js"></script>
+</body>
+
+</html>
