@@ -48,9 +48,13 @@
 
   .modal #video{
     width: 350px;
-    height: 148px;
+    height: 159px;
   }
 }
+
+
+
+
 
 @media (max-width:376px){
   .modal #video{
